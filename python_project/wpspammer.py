@@ -1,5 +1,5 @@
 from selenium import webdriver
-driver = webdriver.Chrome('C:\\webdrivers\\chromedriver.exe')
+driver = webdriver.Chrome('D:\\chromedriver.exe')
 driver.implicitly_wait(15) 
 driver.get('https://web.whatsapp.com')
 driver.find_element_by_css_selector("span[title='" + input("Enter name to spam: ") + "']").click()
